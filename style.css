@@ -57,14 +57,16 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 116px;
-  gap: 8px;
+  gap: 16px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 #placeholder {
   width: 500px;
-  height: auto;
+  height: 400px;
+  object-fit: cover;
+  object-position: center 80%;
 }
 
 .part-one-placeholder {
@@ -90,13 +92,13 @@ body {
 
 .subtext {
   color: lightslategray;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 .part-two-img {
-  border: 4px solid deepskyblue;
-  border-radius: 8px;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 
 .part-two-images {
@@ -108,6 +110,7 @@ body {
 .part-two-content {
   display: flex;
   flex-direction: column;
+  width: 250px;
   gap: 8px;
   align-items: center;
 }
@@ -154,6 +157,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding-left: 100px;
+  gap: 8px;
 }
 
 #part-four-button {
